@@ -60,42 +60,99 @@ body{
   width: 1000px;
   height: 385px;
   display: flex;  
-  flex-direction: column; /* Ставим колонки */  
-  align-items: center; /* Выравнивание по левому краю */  
+  margin-top: 165px;
+  flex-direction: column;
 }  
 
-.aligned-text {  
-  color: aliceblue;   
+.aligned-text {
+  display: flex;
+  width: 286px; 
+  height: 115px;
+  margin-left: 50px;
+  color: aliceblue;
+  justify-content:start;
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 115px;
+  letter-spacing: 0.3em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+   
 }
-.aligned-text_center {   
-  color: aliceblue;   
+.aligned-text_center { 
+  align-items: center;
+  width: 339px; 
+  height: 115px;
+  margin-left: 360.5px;
+  color: aliceblue;
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 115px;
+  letter-spacing: 0.3em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+ 
 }
 .aligned-text_right{
-  color: aliceblue;  
+  width: 387px;
+  height: 115px;
+  margin-left: 635px;
+  color: aliceblue;
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 115px;
+  letter-spacing: 0.3em;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
 }  
 
 .cover__description {
-  margin-top: 100px;
-  display: flex; 
-  width: 100px; 
+  display: flex;
+  width: 1000px; 
   height: 51px;
-  color: aliceblue;  
-  margin-top: 20px; /* Отступ сверху от заголовка */  
+  color: aliceblue;
+  margin-top: 106px;
+  margin-left: 50px;
 }  
 
-.cover__description-text {  
-  font-size: 28px;  
+.cover__description-text {
+  width: 638px;
+  height: 28px;
+  margin-top: 10px;
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  word-spacing: 10px;
+    
 }  
-
-.bet-button {  
-  display: flex;  
-  margin-top: 10px; /* Отступ сверху у кнопки */  
-  background-color: transparent;  
-  font-size: 28px;  
+.bet-button{
+  width: 256px;
+  height: 51px;
+  margin-left: 80px;  
+  display: flex;
+  justify-content: center; 
+  background-color: transparent;   
   color: aliceblue;  
   border: 0.5px solid aliceblue;  
-  padding: 10px 20px; /* Добавление отступов для кнопки */  
-  cursor: pointer; /* Изменение курсора */  
+  padding: 10px 10px;
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 25.83px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 /* .cover{ 
   background-image: url(/images/cover.jpg);
