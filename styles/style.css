@@ -1,1 +1,213 @@
-/* место для вашего кода */
+body{
+  width: 1100px;
+  height: 3028px;
+}.header{
+  display: grid;
+  width: 1100px;
+  height: 293px;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  
+  
+
+}
+.header__menu{
+  display: flex;
+  justify-content: center;
+  column-gap: 35px;
+
+  /* сделать круглишки у меню слева! */
+}
+.header__links-list-item{
+  list-style:circle;
+}
+
+.header__logo{
+  width: 148px;
+  height: 105px;
+}
+.adress{
+  display: flex;
+  width:240px;
+  height: 98px;
+  max-width: 240px;
+  justify-self: end;
+}
+.content{
+  font-size: 14px;
+  
+}
+.cover {   
+  background-image: url(/images/cover.jpg);  
+  background-size: cover;  
+  position: relative;  
+  width: 1100px;  
+  height: 757px;  
+}  
+
+.overlay {  
+  width: 100%;  
+  height: 100%;  
+  background-color: rgba(0, 0, 0, 0.6);  
+  display: flex;  
+  flex-direction: column;  /* Делаем vertical stack */  
+  justify-content: center; /* Выравниваем по центру */  
+  align-items: flex-start; /* Выравниваем влево */  
+  padding-left: 50px; /* Отступ слева */  
+}  
+
+.cover__title {  
+  width: 1000px;
+  height: 385px;
+  display: flex;  
+  flex-direction: column; /* Ставим колонки */  
+  align-items: center; /* Выравнивание по левому краю */  
+}  
+
+.aligned-text {  
+  color: aliceblue;   
+}
+.aligned-text_center {   
+  color: aliceblue;   
+}
+.aligned-text_right{
+  color: aliceblue;  
+}  
+
+.cover__description {
+  margin-top: 100px;
+  display: flex; 
+  width: 100px; 
+  height: 51px;
+  color: aliceblue;  
+  margin-top: 20px; /* Отступ сверху от заголовка */  
+}  
+
+.cover__description-text {  
+  font-size: 28px;  
+}  
+
+.bet-button {  
+  display: flex;  
+  margin-top: 10px; /* Отступ сверху у кнопки */  
+  background-color: transparent;  
+  font-size: 28px;  
+  color: aliceblue;  
+  border: 0.5px solid aliceblue;  
+  padding: 10px 20px; /* Добавление отступов для кнопки */  
+  cursor: pointer; /* Изменение курсора */  
+}
+/* .cover{ 
+  background-image: url(/images/cover.jpg);
+  background-size: cover;
+  position:relative;
+  width: 1100px;
+  height: 757px;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 /.6);
+  display: flex;
+}
+.cover__title{
+  margin-top: 165px;
+  margin-left: 50px;
+  display: flex;
+  width: 1000px;
+  height: 385px;
+}
+.aligned-text{
+  font-size:115px;
+  width: 286px;
+  height: 115px;
+  color: aliceblue;
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 115px;
+  letter-spacing: 0.3em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  
+}
+.aligned-text_center{
+  font-size:115px;
+  width: 339px;
+  height: 115px;
+  margin-left: 44.5px;
+  margin-top: 120px;
+  color: aliceblue;
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 115px;
+  letter-spacing: 0.3em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+.aligned-text_right{
+  display: flex;
+  font-size: 115px;
+  width: 387px;
+  height: 115px;
+  margin-top: 260px;
+  margin-left: -40px;
+  justify-content: end;
+  color: aliceblue;
+  font-family: Raleway;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 115px;
+  letter-spacing: 0.3em;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+.cover__description{
+  display: flex;
+  color: aliceblue;
+}
+.cover__description-text{
+  font-size: 28px;
+}
+.bet-button{
+  display: flex;
+  background-color: transparent;
+  font-size: 28px;
+  color: aliceblue;
+  border: 0.5px solid aliceblue;
+} */
+
+.lots{
+  width: 1052px;
+  height: 723px;
+  margin-top: 180px;
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color:blueviolet;
+  
+  
+}
+.about{
+  width: 1052px;
+  height: 595px;
+  margin-top: 120px;
+  margin-left: 24px;
+  margin-left: 24px;
+  background-color:hotpink;
+  
+
+}
+.footer{
+  width: 1100px;
+  height: 180px;
+  margin-top: 180px;
+  background-color: bisque;
+
+}
