@@ -57,8 +57,8 @@ body{
   justify-content: center; 
   align-items: flex-start;
   padding-left: 50px;
-  position: relative;
-  z-index: 1; 
+  position: absolute;
+  z-index: 10; 
 }  
 
 .cover__title {  
@@ -160,15 +160,16 @@ body{
   text-decoration-skip-ink: none;
 }
 /* ЛОТЫ С КАРТОЧКАМИ */
+
 .lots{
   width: 1052px;
   height: 723px;
-  margin-top: 180px;
-  margin-left: 24px;
-  margin-right: 24px;
-  padding: 0 24px 0 24px;
+  margin: 180px 24px 0 24px;
 }
 .lots__heading{
+  display: flex;
+  width: 121px;
+  height: 47px;
   font-family: Raleway;
   font-size: 40px;
   font-weight: 700;
@@ -178,61 +179,64 @@ body{
   text-decoration-skip-ink: none;
   margin-left: 40px;
   margin-bottom: 27px;
+ 
 }
 .lots__card-list{
   display: flex;
-  gap: 25px;
+  justify-content:space-between;
+  list-style: none;
 }
-.card{
-  display: flex;
+.lots__card-list-item{
   width: 334px;
-  height: 596px;
-}
-.card__title_1{
-  display: flex;
-  margin: 48px 0 0 40px;
-  width: 254px;
-  height: 82px;
-  z-index: 55;
-}
-.card__title_2{
-  display: flex;
-  width: 254px;
-  height: 110px;
-  margin: 48px 0 0 40px;
-}
-.card__title_3{
-  display: flex;
-  width: 254px;
-  height: 110px;
-  margin: 48px 0 0 40px;
-}
-.card__text_1{
-  display: flex;
-  color: #FFFFFF;
-}
-.card__text_2{
-  color: #FFFFFF;
-}
-.card__text_3{
-  color: #FFFFFF;
-}
-.card_type_film{
-  background-position: center;
-  background-size: cover;
-  background-image: url(/images/card-lot-01.jpg);
-}
-.card_type_book{
-  background-position: center;
-  background-size: cover;
-  background-image: url(/images/card-lot-02.jpg);
-}
-.card_type_picture{
-  background-position: center;
-  background-size: cover;
-  background-image: url(/images/card-lot-03.jpg);
+  height: max-content;
+  position: relative;
 }
 .card-link{
+  height: 100%;
+  text-decoration: none;
+}
+.card{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.card_type_film{
+  background-image: url(/images/card-lot-01.jpg);
+  height: 596px;
+  background-size: cover;
+  background-position: center;
+}
+.card_type_book{
+  background-image: url(/images/card-lot-02.jpg);
+  height: 596px;
+  background-size: cover;
+  background-position: center;
+}
+.card_type_picture{
+  background-image: url(/images/card-lot-03.jpg);
+  height: 596px;
+  background-size: cover;
+  background-position: center;
+}
+.overlay_1{
+  position: absolute;  
+  top: 0;  
+  left: 0;  
+  right: 0;  
+  bottom: 0;  
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;  
+  flex-direction: column;  
+  justify-content: center;
+}
+.card__title{
+  display: flex;
+  width: 254px;
+  height: 110px;
+  margin: 48px 0 0 40px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 20;
   font-family: Raleway;
   font-size: 22px;
   font-weight: 700;
@@ -243,14 +247,58 @@ body{
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #FFFFFF;
-  text-transform: uppercase;
+}
+.card__text_1{
+  display: flex;
+  width: 254px;
+  margin-left: 40px;
+  margin-top: 250px;
+  
+  position: relative;
+  z-index: 20;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+}
+.card__text_2{
+  display: flex;
+  width: 254px;
+  margin-left: 40px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 20;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
+}
+.card__text_3{
+  display: flex;
+  width: 254px;
+  margin-left: 40px;
+  margin-top: 126px;
+  position: relative;
+  z-index: 20;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFF;
 }
 .lots__look-more-link{
   display: flex;
-  width: 192px;
-  height: 25px;
-  margin-top: 30px;
-  margin-left: 40px;
   font-family: Raleway;
   font-size: 20px;
   font-weight: 400;
@@ -258,6 +306,10 @@ body{
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  width: 192px;
+  height: 25px;
+  margin-left: 40px;
+  margin-top: 30px;
 }
 .about{
   width: 1052px;
