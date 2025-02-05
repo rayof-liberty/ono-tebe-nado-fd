@@ -311,18 +311,138 @@ body{
   margin-left: 40px;
   margin-top: 30px;
 }
+/* ОБ АУКЦИОНЕ */
 .about{
   width: 1052px;
   height: 595px;
   margin-top: 120px;
   margin-left: 24px;
   margin-left: 24px;
-  background-color:hotpink;
 }
+.about__column{
+  display: grid;
+  grid-template-columns: 334px  1fr;
+  gap: 72px;
+}
+.about__logo{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 334px;
+  height: 595px;
+}
+.circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  margin-top: 35px;
+  border-radius: 50%;
+  background-image: url(/images/);
+}
+.about__logo-image{
+  width: 148px;
+  height: 114px;
+  background-image: url(/images/logo-white.svg);
+  background-repeat: no-repeat; 
+}
+.text{
+  width: 693px;
+  height: 449px;
+  margin-top: 133px;
+  margin-left: -48px;
+}
+.about__title{
+  width: 291px;
+  height: 47px;
+  margin-top: 3px;
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.96px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-transform: uppercase;
+}
+.about__text_1{
+  margin-top: 100px;
+  width: 688px;
+  height: 120px;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 24px;
+}
+.about__text_2{
+  width: 693px;
+  height: 168px;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+/* ФУТЕР ПОШЕЛ */
 .footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
   width: 1100px;
   height: 180px;
   margin-top: 180px;
-  background-color: bisque;
-
+}
+.adress_1{
+  width: 264.57px;
+  height: 98px;
+  text-align: start;
+  margin-left: 50px;
+}
+.content_1{
+  list-style-type: none;
+}
+.footer__menu{
+  display: flex;
+  justify-content: center;
+}
+.footer__menu-list{
+  width: 163.9px;
+  height: 64px;
+  list-style-type: none;
+  text-align: center;
+}
+.footer__social-list{
+  display: flex;
+  justify-content: end;
+}
+.footer__social-list-item{
+  display: flex ;
+  width: 240px;
+  height: 48px;
+  gap: 48px;
+}
+.footer__social-icon_1{
+  width: 48px;
+  height: 48px;
+  background-image: url(/images/yt.svg);
+  margin-left: -50px;
+  margin-top: 1px;
+}
+.footer__social-icon_2{
+  width: 48px;
+  height: 48px;
+  background-image: url(/images/vk.svg);
+}
+.footer__social-icon_3{
+  width: 48px;
+  height: 48px;
+  background-image: url(/images/pinterest.svg);
 }
