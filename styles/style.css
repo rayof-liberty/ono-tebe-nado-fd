@@ -84,7 +84,7 @@ body {
   display: flex;
   width: 286px;
   margin-left: 50px;
-  color: #FFFFFF;
+  color: #ffffff;
   justify-content: start;
   font-family: Raleway;
   font-size: 100px;
@@ -94,7 +94,7 @@ body {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  font-family:Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .aligned-text_center {
@@ -129,7 +129,7 @@ body {
 .cover__description {
   display: flex;
   width: 1000px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 106px;
   margin-left: 50px;
 }
@@ -154,8 +154,8 @@ body {
   display: flex;
   justify-content: center;
   background-color: transparent;
-  color: #FFFFFF;
-  border: 0.5px solid #FFFFFF;
+  color: #ffffff;
+  border: 0.5px solid #ffffff;
   padding: 10px 10px;
   font-family: Raleway;
   font-size: 22px;
@@ -207,7 +207,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.card_type_common{
+.card_type_common {
   min-height: 596px;
   background-size: cover;
   background-position: center;
@@ -260,13 +260,13 @@ body {
   text-decoration-skip-ink: none;
   color: #ffffff;
 }
-.location_left{
+.location_left {
   margin-top: 274px;
 }
-.location_center{
+.location_center {
   margin-top: 30px;
 }
-.location_right{
+.location_right {
   margin-top: 126px;
 }
 
@@ -400,7 +400,7 @@ body {
   gap: 48px;
 }
 
-.ttt{
+.ttt {
   width: 240px;
   height: 48px;
   margin-left: -50px;
