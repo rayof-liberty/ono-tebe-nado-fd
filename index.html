@@ -3,21 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./fonts/Raleway-Bold.woff" />
-    <link rel="stylesheet" href="./fonts/Raleway-Bold.woff2" />
-    <link rel="stylesheet" href="./fonts/Raleway-Regular.woff" />
-    <link rel="stylesheet" href="./fonts/Raleway-Regular.woff2" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./images/cover.jpg" />
-    <link rel="stylesheet" href="./images/card-lot-01.jpg" />
-    <link rel="stylesheet" href="./images/card-lot-02.jpg" />
-    <link rel="stylesheet" href="./images/card-lot-03.jpg" />
-    <link rel="stylesheet" href="./images/logo-black.svg" />
-    <link rel="stylesheet" href="./images/logo-white.svg" />
-    <link rel="stylesheet" href="./images/pinterest.svg" />
-    <link rel="stylesheet" href="./images/vk.svg" />
-    <link rel="stylesheet" href="./images/yt.svg" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
@@ -56,25 +43,25 @@
             <span class="aligned-text_right">НАДО</span>
           </h1>
           <div class="cover__description">
-            <div class="cover__description-text">
-              АУКЦИОН ВЕЩЕЙ, В КОТОРЫЙ НИКТО НЕ ВЕРИЛ
-            </div>
-            <button class="bet-button">СДЕЛАТЬ СТАВКУ</button>
+            <p class="cover__description-text">
+              АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ
+            </p>
+          <button class="bet-button">СДЕЛАТЬ СТАВКУ</button>
           </div>
         </div>
       </section>
       <section class="lots">
-        <div id="a1" class="lots__heading">Лоты</div>
+        <h2 id="a1" class="lots__heading">ЛОТЫ</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
             <a href="#0" class="card-link">
               <article class="card">
                 <div class="card_type_film card_type_common">
-                  <div class="overlay"></div>
-                  <div class="card__title">
+                  <h2 class="card__title">
                     Фильм режиссёра, который бросил киношколу
-                  </div>
-                  <p class="card__text location_left">
+                  </h2>
+                  <div class="overlay"></div>
+                  <p class="card__text">
                     Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                     ставка, если бы вы не знали, что режиссёр — Пол Томас
                     Андерсон?
@@ -87,12 +74,12 @@
             <a href="#" class="card-link">
               <article class="card">
                 <div class="card_type_book card_type_common">
-                  <div class="overlay"></div>
-                  <div class="card__title">
+                  <h2 class="card__title">
                     Книга, где описан один скучный день из жизни рекламного
                     агента
-                  </div>
-                  <p class="card__text location_center">
+                  </h2>
+                  <div class="overlay"></div>
+                  <p class="card__text">
                     Объёмом почти в тысячу страниц. Иногда без знаков препинания
                     и с переходами на древнеанглийский. В ней одновременно
                     рассказывается о 16 июня 1904 года и об истории литературы,
@@ -108,11 +95,11 @@
             <a href="#" class="card-link">
               <article class="card">
                 <div class="card_type_picture card_type_common">
-                  <div class="overlay"></div>
-                  <div class="card__title">
+                  <h2 class="card__title">
                     Картина, которую повторит даже 5-летний сын маминой подруги
-                  </div>
-                  <p class="card__text location_center">
+                  </h2>
+                  <div class="overlay"></div>
+                  <p class="card__text">
                     Ну действительно, там линия, тут кружочек, а здесь и вовсе
                     что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
                     котиков... Сколько бы вы на такое поставили, если бы не
@@ -133,7 +120,7 @@
             </div>
           </div>
           <div class="text">
-            <div id="a2" class="about__title">Об аукционе</div>
+            <h2 id="a2" class="about__title">Об аукционе</h2>
             <div class="content_paragraphs">
               <p class="about__text location_left">
                 Здесь вы не встретите очередное пафосное собрание невероятно
@@ -157,27 +144,25 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="address">
+      <address class="address">
         <ul class="content_footer">
           <li><a href="tel:+9-999-555-5555">+9 999 555 5555</a></li>
           <li><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
           <li>наб. Принсенграхт 263-265, Амстердам</li>
         </ul>
-      </div>
+      </address>
       <nav class="footer__menu">
         <div class="footer__menu-list">
-          <hr />
-          главная
+          <div>главная</div>
           <a href="#a1">посмотреть лоты</a>
           <a href="#a2">об аукционе</a>
         </div>
       </nav>
       <div class="footer__social-list">
-        <a href="#0" class="footer__social-list-item">
-          <span class="footer__social-icon footer__social-icon_1"></span>
-          <span class="footer__social-icon footer__social-icon_2"></span>
-          <span class="footer__social-icon footer__social-icon_3"></span>
-        </a>
+          <span class="footer__social-list-item footer__social-icon footer__social-icon_1"></span>
+          <span class="footer__social-list-item footer__social-icon footer__social-icon_2"></span>
+          <span class="footer__social-list-item footer__social-icon footer__social-icon_3"></span>
+        </div>
       </div>
     </footer>
   </body>
