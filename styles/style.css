@@ -1,6 +1,5 @@
 body {
   width: 1100px;
-  /* outline: 1px solid red; */
 }
 
 .header {
@@ -116,7 +115,7 @@ body {
   width: 387px;
   margin-left: 663px;
   margin-top: 20px;
-  color: ffffff;
+  color: #ffffff;
   font-family: Raleway, sans-serif;
   font-size: 100px;
   font-weight: 700;
