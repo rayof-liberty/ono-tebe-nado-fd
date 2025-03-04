@@ -1,6 +1,5 @@
 body {
   width: 1100px;
-  outline: 1px solid red;
 }
 /* проверил все, скроллов при ширине 1100рх - нет, каждый элемент просмотрел, ни один не выходит за границы тела */
 .header {
@@ -12,16 +11,21 @@ body {
 
 .header__menu {
   width: 391.48px;
-  display: flex;
-  justify-content: center;
-  column-gap: 40px;
-  margin-left: 40px;
+  margin-bottom: 2px;
+  margin-left: 50px;
+  /* стили */
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
+  letter-spacing: 0%;
 }
-
-.header__links-list-item {
-  list-style: circle;
+.header__links-list-item{
+  display: flex;
+  gap: 33px;
   list-style-type: circle;
 }
+
 
 .header__logo {
   width: 148px;
@@ -237,7 +241,7 @@ body {
 .card__title {
   display: flex;
   width: 254px;
-  margin: 48px 0 0 40px;
+  margin-top: 48px;
   text-transform: uppercase;
   position: relative;
   z-index: 20;
@@ -365,6 +369,7 @@ body {
 .address {
   width: 264.57px;
   text-align: start;
+  margin-bottom: 82px;
 }
 
 .content_footer {
@@ -383,6 +388,7 @@ body {
 .footer__menu {
   display: flex;
   justify-content: center;
+  margin-bottom: 115px;
 }
 
 .footer__menu-list {
@@ -403,6 +409,7 @@ body {
 .footer__social-list {
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 131px;
 }
 
 .footer__social-list-item {
