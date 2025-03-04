@@ -21,6 +21,9 @@ body {
   line-height: 21.13px;
   letter-spacing: 0%;
 }
+.no_marker {
+  list-style-type: none;
+}
 
 .header__links-list-item {
   display: flex;
