@@ -1,6 +1,7 @@
 body {
   width: 1100px;
 }
+
 /* проверил все, скроллов при ширине 1100рх - нет, каждый элемент просмотрел, ни один не выходит за границы тела */
 .header {
   display: grid;
@@ -20,12 +21,12 @@ body {
   line-height: 21.13px;
   letter-spacing: 0%;
 }
-.header__links-list-item{
+
+.header__links-list-item {
   display: flex;
   gap: 33px;
   list-style-type: circle;
 }
-
 
 .header__logo {
   width: 148px;
@@ -215,6 +216,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .card_type_common {
   display: flex;
   flex-direction: column;
@@ -226,6 +228,7 @@ body {
   position: relative;
   z-index: 2;
 }
+
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
