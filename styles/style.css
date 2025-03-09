@@ -397,6 +397,9 @@ body {
   justify-content: center;
   margin-bottom: 115px;
 }
+.link {
+  text-decoration: none;
+}
 
 .footer__menu-list {
   display: flex;
