@@ -38,13 +38,11 @@ body {
   margin-top: 92px;
 }
 
-.adress {
-  display: flex;
-  max-width: 240px;
-  justify-self: end;
-  margin-right: 50px;
+.address {
+  width: 264.57px;
+  text-align: start;
   font-style: normal;
-  /* font-style: normal; <- добавил  */
+  /* font-style: normal; <- добавил */
 }
 
 .content {
@@ -52,6 +50,7 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 18px;
+  margin-left: 186px;
   line-height: 24.3px;
   letter-spacing: 0%;
 }
@@ -374,13 +373,6 @@ body {
   /* margin: 180px 24px 0 24px; */
 }
 
-.address {
-  width: 264.57px;
-  text-align: start;
-  margin-bottom: 82px;
-  font-style: normal;
-  /* font-style: normal; <- добавил */
-}
 
 .content_footer {
   width: 264.57px;
