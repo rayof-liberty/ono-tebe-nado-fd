@@ -43,6 +43,8 @@ body {
   max-width: 240px;
   justify-self: end;
   margin-right: 50px;
+  font-style: normal;
+  /* font-style: normal; <- добавил  */
 }
 
 .content {
@@ -377,6 +379,7 @@ body {
   text-align: start;
   margin-bottom: 82px;
   font-style: normal;
+  /* font-style: normal; <- добавил */
 }
 
 .content_footer {
