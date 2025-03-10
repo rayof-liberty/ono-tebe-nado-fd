@@ -414,7 +414,7 @@ body {
 .footer__social-list {
   width: 240px;
   margin-bottom: 128px;
-  margin-left: 74px;
+  /* margin-left: 70px; */
 }
 .list {
   display: flex;
