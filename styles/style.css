@@ -414,12 +414,10 @@ body {
 .footer__social-list {
   width: 240px;
   margin-bottom: 128px;
-  margin-left: 76px;
+  margin-left: 74px;
 }
 .list {
   display: flex;
-  margin: 0;
-  padding: 0;
   list-style-type: none;
 }
 .footer__social-list-item {
